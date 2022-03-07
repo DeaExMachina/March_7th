@@ -5,7 +5,7 @@ public class Bookcase {
     private String genre;
     private Book[] books;
 
-    public Bookcase(int shelves, String genre, LivingRoom.Book[] books) {
+    public Bookcase(int shelves, String genre, Book[] books) {
         this.shelves = shelves;
         this.genre = genre;
         this.books = books;
@@ -27,11 +27,11 @@ public class Bookcase {
         this.genre = genre;
     }
 
-    public LivingRoom.Book[] getBooks() {
+    public Book[] getBooks() {
         return books;
     }
 
-    public void setBooks(LivingRoom.Book[] books) {
+    public void setBooks(Book[] books) {
         this.books = books;
     }
 
